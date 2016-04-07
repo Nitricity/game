@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6969"
-	"mapversion" "9"
+	"mapversion" "14"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "16"
+	"nGridSpacing" "64"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "14"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -10755,17 +10755,47 @@ world
 }
 entity
 {
-	"id" "3381"
-	"classname" "info_player_terrorist"
+	"id" "3957"
+	"classname" "info_player_counterterrorist"
 	"angles" "0 0 0"
 	"enabled" "1"
-	"origin" "1140.08 -3782.17 1"
+	"origin" "-722.913 -5294.12 0"
 	editor
 	{
 		"color" "220 30 220"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[0 0]"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "3963"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 0 0"
+	"enabled" "1"
+	"origin" "-869.992 -5512.29 -1.52588e-005"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "3965"
+	"classname" "info_player_counterterrorist"
+	"angles" "0 0 0"
+	"enabled" "1"
+	"origin" "-711.877 -5504.33 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
 	}
 }
 entity
@@ -10923,8 +10953,8 @@ cameras
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1104.74 -3648 516.095]"
-		"look" "[1104.74 -3648 516.095]"
+		"position" "[-495.085 -5413.03 176.147]"
+		"look" "[-495.893 -5412.78 175.611]"
 	}
 }
 cordons
