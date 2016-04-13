@@ -10753,22 +10753,19 @@ world
 		}
 	}
 }
-hidden
+entity
 {
-	entity
+	"id" "5313"
+	"classname" "info_player_terrorist"
+	"angles" "0 0 0"
+	"enabled" "1"
+	"origin" "-25.4907 -1854.59 1"
+	editor
 	{
-		"id" "5313"
-		"classname" "info_player_terrorist"
-		"angles" "0 0 0"
-		"enabled" "1"
-		"origin" "-25.4907 -1854.59 1"
-		editor
-		{
-			"color" "220 30 220"
-			"visgroupshown" "1"
-			"visgroupautoshown" "1"
-			"logicalpos" "[0 0]"
-		}
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
 	}
 }
 entity
@@ -11414,8 +11411,4 @@ cameras
 cordons
 {
 	"active" "0"
-}
-quickhide
-{
-	"count" "2"
 }
